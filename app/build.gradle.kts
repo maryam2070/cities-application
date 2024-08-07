@@ -66,4 +66,14 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+
+    //Gson
+    implementation("com.google.code.gson:gson:2.11.0")
+
+    //Koin
+    implementation("io.insert-koin:koin-android:3.4.2")
+    implementation("io.insert-koin:koin-androidx-compose:3.4.2")
+    implementation("io.insert-koin:koin-androidx-navigation:3.4.2")
+
 }
